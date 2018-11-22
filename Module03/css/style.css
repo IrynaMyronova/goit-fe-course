@@ -1,24 +1,20 @@
-*{
-    box-sizing: border-box;
+body{
     font-family:'Playfair Display', serif;
     font-weight:400;
     color: #626262;
-    max-width: 901px;
-    margin: 0 auto;
     letter-spacing: 0;
-    line-height: auto;
-}
-body{
+    line-height: 1.2;    
     margin: 0;
     padding: 0;
 }
 header{
+    box-sizing: border-box;
+    max-width: 901px;
+    margin: 0 auto 105px;
     padding-top: 78px;
-    margin: 0;
 }
 
 .site-navigation{
-    margin-bottom: 105px;
     padding: 0;
     text-align: center;
     font-size: 0;
@@ -44,8 +40,10 @@ header{
     color: #03a9f4;
 }
 main{
-    margin: 0;
-    padding: 0;
+    box-sizing: border-box;
+    max-width: 901px;
+    margin: 0 auto;
+    padding-bottom: 70px;
 }
 section{
     margin: 0;
@@ -69,47 +67,58 @@ section div{
 img{
     display: block;
     margin: 0;
+    margin-bottom: 30px;
+    padding: 0;
+
 }
 
 .content{
     width: 420px;
     padding: 0;
-    word-spacing: 0;
+    margin: 0;
 }
-section .content:not(:last-child){
+section .content:first-child{
 margin-right: 60px;
 }
 p{
-    margin: 0;
     padding: 0;
-    line-height: 1.73;
+    line-height: 24px;
     text-align: left;
+    margin: 0;
 }
-.txt{
+span{
+    display: inline-block;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
-    line-height: 0;
     color: #b4ad9e;
     text-transform: uppercase;
     margin: 0;
-    padding:33px 0 30px;
+    margin-bottom:23px;
+    padding:0;
     
 }
 h2{
     font-size: 30px;
+    font-weight:400;
     margin: 0;
-    padding-bottom: 45px;
+    margin-bottom:30px;
+    padding:0;
     text-align: left;
+
    
 }
 
 button{
     display: block;
+    font-family:inherit;
+    font-weight:inherit;
+    color:inherit;
     font-size: 20px;
     line-height: 24px;
+    letter-spacing: 0;
     height: 63px;
     width: 166px;
-    margin: 0 auto 70px;
+    margin: 0 auto;
     border: 1px #626262 solid; 
     padding: 0;
     background: inherit; 
