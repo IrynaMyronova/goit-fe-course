@@ -1,7 +1,6 @@
 
 body{
     margin:0;
-    padding: 0;
 }
 .container{
     width: 1110px;
@@ -10,16 +9,16 @@ body{
     
 }
 header{
-    box-sizing: border-box;
-    padding-top: 38px;
-    margin-bottom: 98px;
+    padding: 38px 5px 50px 5px;
+    margin-bottom: 48px;
+   
 }
 
-.clearfix::after{
+ .clearfix::after{
     content: '';
     display: table;
     clear: both;
-}
+} 
 .site-logo{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -49,26 +48,33 @@ header{
     text-transform: uppercase;
     margin: 0;
     padding:0;
+    width: 530px;
+    
   
 }
 .site-navigation-item{
     float: left;
     margin: 0;
     padding-top: 15px;
+    width: 86px;
    
- 
+    
+  
    }
 .site-navigation-item a{
     color:#0f0101;
     text-decoration: none;
-    padding: 0 18px;
-    }
-     .site-navigation-item a:hover{
+    padding: 0;
+    display: block;
+    text-align: center;
+    
+    
+ }
+.site-navigation-item a:hover{
      color: #1abc9c;
     }
-    .main{
-        padding: 0;
-        box-sizing: border-box;
+.main{
+    padding: 0 5px 82px 5px;
     }
  .title{
     font-family: 'Roboto', sans-serif;
@@ -80,8 +86,7 @@ header{
     text-align: center;
     text-transform: uppercase;
     position: relative;
-    margin: 0;
-    margin-bottom: 92px;
+    margin: 0 0 92px 0;
     padding-bottom:40px;
       
     }
@@ -96,8 +101,7 @@ header{
     bottom: 0;
     left: 473px;
     margin:0;
-
-    
+   
     }
 
     
@@ -156,7 +160,7 @@ div:hover .cost{
     background: #7fd9c7;
     }
     .info{
-        margin-bottom: 80px;
+    margin-bottom: 80px;
     }
 .news div{
     float: left;
@@ -176,9 +180,8 @@ div:hover .cost{
     color:#555252;
     position: relative;
     padding-bottom: 12px;
-    margin: 0;
-    margin-bottom: 20px;
-    
+    margin: 0 0 20px 0;
+   
     }
 .name::after{
     content: '';
@@ -200,9 +203,9 @@ div:hover .cost{
     font-size: 14px;
     line-height: 26px;
     letter-spacing: -0.28px;
-    margin: 0;
+    margin: 0 0 12px 0;
     color: #555252;
-    margin-bottom: 12px;
+  
     }
 button{
     font-family: 'Open Sans', sans-serif;
@@ -215,8 +218,7 @@ button{
     color: #ffffff;
     border:1px  #4ec6ab solid;
     border-radius: 2px;
+    cursor: pointer;
     }
-.main{
-    margin-bottom: 82px;
-    }
+
      
