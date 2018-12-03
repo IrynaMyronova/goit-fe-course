@@ -4,21 +4,21 @@ body{
 }
 .container{
     width: 1110px;
-    max-width: 100%;
     margin: 0 auto;
     
 }
 header{
-    padding: 38px 5px 50px 5px;
-    margin-bottom: 48px;
+    padding: 28px 6px 50px 6px;
+   
    
 }
-
  .clearfix::after{
     content: '';
     display: table;
     clear: both;
 } 
+
+
 .site-logo{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -42,13 +42,12 @@ header{
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 14px;
-    line-height: 11px;
     color:#0f0101;
     list-style:none;
     letter-spacing: -0.28px;
     text-transform: uppercase;
     margin: 0;
-    padding:0;
+    padding: 6px 0 0;
     width: 530px;
     
   
@@ -56,7 +55,6 @@ header{
 .site-navigation-item{
     float: left;
     margin: 0;
-    padding-top: 15px;
     width: 86px;
    
     
@@ -74,23 +72,22 @@ header{
 .site-navigation-item a:hover{
      color: #1abc9c;
     }
+    
 .mainly{
     box-sizing: content-box;
-    padding: 0 5px 82px 5px;
+    padding: 38px 6px 40px 6px;
     }
  .title{
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 48px;
     color:#515151;
-    line-height: 32px;
     letter-spacing: -0.96px;
     text-align: center;
     text-transform: uppercase;
     position: relative;
-    margin: 0 0 92px 0;
-    padding-bottom:40px;
-      
+    margin: 0 0 120px;
+          
     }
     
 .title::after{
@@ -100,7 +97,7 @@ header{
     width:164px;
     position: absolute;
     height: 7px; 
-    bottom: 0;
+    bottom: -26px;
     left: 473px;
     margin:0;
    
@@ -108,12 +105,12 @@ header{
 
     
 .product:first-of-type{
-    margin-bottom: 30px;
+    margin-bottom: 32px;
     }
 
-.product:not(:first-of-type){
-    margin-bottom: 100px;
-    }
+.product-block{
+    padding-bottom: 48px;
+}
 .product div {
     float: left;
     margin: 0 auto;
@@ -139,7 +136,7 @@ section div:not(:last-child){
     letter-spacing: -0.36px;
     text-transform: uppercase;
     margin: 0;
-    padding: 5px 0;
+    padding: 4px 0;
     }
 .name-product{
     box-sizing: border-box;
@@ -164,8 +161,12 @@ div:hover .name-product{
 div:hover .cost{
     background: #7fd9c7;
     }
-    .info{
-    margin-bottom: 80px;
+
+.news-block{
+    padding: 48px 0 42px;
+}
+.info{
+    margin-bottom: 106px;
     }
 .news div{
     float: left;
@@ -176,19 +177,17 @@ div:hover .cost{
     display: block;
     margin-bottom: 10px;
     }
-.name{
+.title-news{
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 18px;
     line-height: 26px;
-    letter-spacing: -0.36px;
     color:#555252;
     position: relative;
-    padding-bottom: 12px;
-    margin: 0 0 20px 0;
+    margin: 0 0 32px;
    
     }
-.name::after{
+.title-news::after{
     content: '';
     display: block;
     background-color:#4ec6ab;
@@ -196,13 +195,13 @@ div:hover .cost{
     height: 3px;
     margin: 0;
     position: absolute;
-    bottom: 0;
+    bottom: -12px;
     left: 0;
  
     
     }
     
-.txt{
+.txt-news{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -218,7 +217,8 @@ button{
     font-size: 16px;
     line-height: 26px;
     letter-spacing: -0.32px;
-    padding: 12px 42px;
+    width: 162px;
+    padding: 12px 4px;
     background-color: #4ec6ab;
     color: #ffffff;
     border:1px  #4ec6ab solid;
