@@ -1,0 +1,29 @@
+
+/* WisdomScript */
+
+@font-face {
+	font-family: 'WisdomScriptAJ';
+	src: url('../fonts/WisdomScriptAJ/WisdomScriptAJ.woff') format('truetype');
+}
+/* Montserrat-Regular */
+
+@font-face {
+	font-family: 'Montserrat-Regular';
+	src: url('../fonts/Montserrat/Montserrat-Regular.woff') format('woff');
+
+}
+/* Montserrat-Bold */
+@font-face {
+	font-family: 'Montserrat-Bold';
+	src: url('../fonts/Montserrat/Montserrat-Bold.woff') format('woff');
+}
+/* DroidSerif-Italic */
+@font-face {
+	font-family: 'DroidSerif-Italic';
+	src: url('../fonts/DroidSerif/droidserifitalic.woff') format('woff');
+}
+/* RobotoSlab-Regular */
+@font-face{
+	font-family: 'RobotoSlab-Regular';
+	src: url('../fonts/RobotoSlab/robotoslabregular.woff') format('woff'), url('../fonts/RobotoSlab/robotoslabregular.woff2') format('woff2');
+}

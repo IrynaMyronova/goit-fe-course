@@ -42,19 +42,21 @@ header{
     position: relative;
     text-align: center;
 }
-.block-nav-menu-item:hover.block-nav-menu-item::after {
+.block-nav-menu-item:hover.block-nav-menu-item a::after {
     content: '';
     display: block;
-    width: 50px;
+    width: 100%;
     border-bottom: 3px solid #f38181;
     position: absolute;
     bottom: -12px;
-    left: 23px;
+    left: 0;
 
 }
 .block-nav-menu-item a{
     text-decoration: none;
     color: #a9e7db;
+    position: relative;
+
 }
 .block-nav-menu-item:hover.block-nav-menu-item a{
     color:#f38181;
@@ -186,32 +188,28 @@ h4{
     position: relative;
 }
 .person1, .person2, .person3{
-    height: 470px;
-    transform: translate(0,0);
     margin:0 0 28px;
+    background: #95e1d3
 
 }
-.our-team-block-item:hover .person1, .our-team-block-item:hover .person2, .our-team-block-item:hover .person3{
+.our-team-block-item:hover .person1 img, .our-team-block-item:hover .person2 img, .our-team-block-item:hover .person3 img{
     transform: translate(-10px,-10px);
     transition-property: transform;
     transition-duration: 200ms;
     transition-timing-function: linear;
+    
 
 
 }
-.person1{
-    background-image: url('../jpg/our-team/1.png');
+ img {
+    display: block;
+    width: 380px;
+    height: 470px;
     background-size: cover;
+    transform: translate(0,0);
 
 }
-.person2{
-    background-image: url('../jpg/our-team/2.png');
-    
-}
-.person3{
-    background-image: url('../jpg/our-team/3.png');
-    
-}
+
 .block-overlay{
     width: 380px;
     height: 470px;
@@ -221,21 +219,23 @@ h4{
     opacity: 0;
     left: 0;
     top: 0;
-    box-shadow: 10px 10px #a9e7db;
+    
   
 }
 .our-team-block-item:hover .block-overlay{
     opacity: 1;
     transform: translate(-10px,-10px);
-    transition-property: all;
+    transition-property:transform ;
     transition-duration: 200ms;
     transition-timing-function: linear;
+   
     
 }
 .block-socials{
     position: absolute;
     top:198px;
     right: 88px;
+    opacity: 0;
    
 }
 .team-list-socials {
@@ -247,7 +247,9 @@ h4{
     padding: 0;
 }
 .our-team-block-item:hover .block-socials{
-    display: block;
+   opacity: 1;
+  
+
 }
 .team-list-socials a{
     display: block;
