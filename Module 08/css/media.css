@@ -5,12 +5,12 @@
     .nav{
          margin-bottom: 28px;
     }
-    .nav nav{
+    .block-nav{
         margin-bottom: 114px;
     }
     .logo{
         display: inline-block;
-        width: 320px;
+        width: 100%;
     } 
     .promo-title{
         margin: 0 auto 10px;
@@ -46,10 +46,8 @@
     .logo{
         order: 1;
     }
-    .nav nav{
-        order: 2;
-    }
     .block-nav{
+        order: 2;
         width: 200px;
     }
     .promo-title{
@@ -127,11 +125,9 @@
         order: 1;
         padding: 8px 0;
     }
-    .nav nav{
-        order: 2;
-    }
     .block-nav{
         width: 200px;
+        order: 2;
     }
     .promo-title{
         width: 492px;
