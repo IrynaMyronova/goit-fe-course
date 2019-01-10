@@ -2,32 +2,28 @@ body{
     margin: 0;
     padding: 0;
    
-
-}
-/* HEADER */
-header{
-    padding: 15px 6px 42px;
 }
 .container{
     width: 940px;
     margin: 0 auto;
 }
-header div{
+/* HEADER */
+header{
+    padding: 50px 6px 80px;
+}
+header nav{
     display: flex;
-    height: 100px;
-    align-items: center;
     justify-content: space-between;
-    padding-left: 6px;
-    box-sizing: border-box;
+    align-items: flex-end;
 }
 
 .logo{
     font-family: 'WisdomScriptAJ', sans-serif;
     font-size: 26px;
-    line-height: 41px;
     letter-spacing: 0.05em;
     color: #fed136;
     text-decoration: none;
+    padding-left: 6px;
 }
 .block-nav{
     display: flex;
@@ -39,11 +35,12 @@ header div{
     margin: 0;
     font-family: 'Montserrat-Regular', sans-serif;
     font-size: 14px;
-    line-height: 41px;
   
 }
 .block-nav-item{
+    width: 90px;
     text-align: center;
+    cursor: pointer;
 }
 .block-nav-item a{
     text-decoration: none;
@@ -132,7 +129,7 @@ footer{
     background:#000;
     background-image: url(../img/Map-Image.png);
     background-repeat: no-repeat;
-    background-position: right 130px;
+    background-position: right 120px;
     padding: 98px 0 114px;
    
 }  
@@ -207,4 +204,5 @@ button{
     padding: 22px 2px;
     margin: 0 auto;
     border: 1px solid #fed136;
+    cursor: s;
 }
