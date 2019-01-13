@@ -22,7 +22,7 @@
         </nav>
     </header>
     <main>
-        <section class="container">
+        <section class="services container">
             <h2 class="services-title">Services</h2>
             <h3 class="services-subtitle">Proin iaculis purus consequat sem cure.</h3>
             <div class="services-block">
@@ -40,21 +40,26 @@
                 </div>
             </div>
         </section>
+        <section class="contact">
+            <div class="container">
+                <h2 class="contact-title">Contact us</h2>
+                <h3 class="contact-subtitle">Proin iaculis purus consequat sem cure.</h3> 
+                <form action="#" method="GET">
+                    <div class="input"> 
+                        <input type="text" name="your name" placeholder="your name *" pattern="[A-Za-z]{2,60}" required> 
+                        <input type="email" name="your e-mail " placeholder="your e-mail *" required>
+                        <input type="text" name="subject" placeholder="subject" >
+                    </div>
+                    <div class="textarea">
+                        <textarea name="body" cols="30" rows="5" placeholder="your message *" pattern="[A-Za-z]{5,250}" required></textarea>
+                    </div>
+                    <button type="submit">Send message</button>
+                </form>
+            </div>  
+       </section>
+       
     </main>
-    <footer>
-     <div class="contact container">
-         <h2 class="contact-title">Contact us</h2>
-         <h3 class="contact-subtitle">Proin iaculis purus consequat sem cure.</h3> 
-         <form action="#" method="GET">
-         <input type="text" name="your name" placeholder="your name *" required> 
-         <input type="email" name="your e-mail " placeholder="your e-mail *" required>
-         <input type="text" name="subject" placeholder="subject" >
-         <textarea name="body" cols="30" rows="5" placeholder="your message *" required></textarea>
-         <button>Send message</button>
-        </form>
-     </div>
     
-    </footer>
     
 </body>
 </html>
