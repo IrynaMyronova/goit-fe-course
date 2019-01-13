@@ -9,18 +9,19 @@ body{
 }
 /* HEADER */
 header{
-    padding: 50px 6px 80px;
+    padding: 44px 6px 70px;
 }
 header nav{
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: baseline;
 }
 
 .logo{
     font-family: 'WisdomScriptAJ', sans-serif;
     font-size: 26px;
     letter-spacing: 0.05em;
+    line-height: 41px;
     color: #fed136;
     text-decoration: none;
     padding-left: 6px;
@@ -40,7 +41,6 @@ header nav{
 .block-nav-item{
     width: 90px;
     text-align: center;
-    cursor: pointer;
 }
 .block-nav-item a{
     text-decoration: none;
@@ -51,7 +51,10 @@ header nav{
 }
 /* MAIN */
 main{
-    padding: 40px 6px 124px
+    padding: 40px 6px 20px;
+}
+.services{
+    margin-bottom: 122px;
 }
 h2{
     font-family: 'Montserrat-Bold', sans-serif;
@@ -79,6 +82,8 @@ h3{
 .services-block-item{
     width: 274px;
     text-align: center;
+    position: relative;
+    padding-top: 96px;
 }
 h4 {
     font-family: 'Montserrat-Bold', sans-serif;
@@ -97,13 +102,15 @@ h4 {
     border-radius: 50%;
     background-repeat: no-repeat;
     background-position: center;
-    margin: 0 auto 20px;
+    position: absolute;
+    top:0;
+    left:50%;
+    transform: translateX(-50%);
 
 } 
 .icon1::before{
     background-image: url(../img/Icon-Basket.png);
    
-
 }
 .icon2::before{
     background-image: url(../img/Icon-Laptop.png);
@@ -124,8 +131,7 @@ p{
     
        
 }
-/* FOOTER */
-footer{
+.contact{
     background:#000;
     background-image: url(../img/Map-Image.png);
     background-repeat: no-repeat;
@@ -141,53 +147,60 @@ footer{
     margin-bottom: 74px;
 }
 form{
-    display: block;
-    position: relative;
+    display: flex;
     width: 940px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
     
 } 
+.input{
+    width: 455px;
+}
 input{
-    width: 433px;
+    width: 452px;
     height: 48px;
     border: 1px solid #cccccc;
     border-radius: 2px;
-    margin: 0 28px 28px 0;
+    margin-bottom: 28px;
+    
+}
+input:last-child{
+    margin-bottom: 0;
+}
+input:required:valid:not(:placeholder-shown){
+    outline-color : #008000;
+}
+input:required:invalid:not(:placeholder-shown){
+    outline-color: #ff0000;
+}
+input::placeholder, textarea::placeholder {
+    text-transform: uppercase;
     font-family: 'Montserrat-Bold', sans-serif;
     font-size: 14px;
     letter-spacing: -0.025em;
-    text-transform: uppercase;
     padding-left: 20px;
-    
 }
-input:required:valid{
-    outline-color : #008000;
-}
-input:required:invalid{
-    outline-color: #ff0000;
+
+.textarea{
+    width: 455px;
+    margin-bottom: 26px;
 }
 
 textarea{
     display: inline-block;
-    width: 433px;
+    width: 447px;
     height: 194px;
     border: 1px solid #cccccc;
     border-radius: 2px;
-    position: absolute;
-    top:0;
-    right: 0;
     resize: none;
-    font-family: 'Montserrat-Bold', sans-serif;
-    font-size: 14px;
-    letter-spacing: -0.025em;
-    text-transform: uppercase;
-    padding-left: 20px;
-    padding-top: 14px
+    padding:18px 2px 2px;
     
 }
-textarea:required:valid{
+textarea:required:valid:not(:placeholder-shown){
     outline-color : #008000;
 }
-textarea:required:invalid{
+textarea:required:invalid:not(:placeholder-shown){
     outline-color: #ff0000;
 }
 
@@ -201,8 +214,9 @@ button{
     font-size: 18px;
     border-radius: 3px;
     background-color: #fed136;
-    padding: 22px 2px;
+    padding: 20px 2px;
     margin: 0 auto;
     border: 1px solid #fed136;
-    cursor: s;
+    cursor: pointer;
+
 }
