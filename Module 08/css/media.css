@@ -5,7 +5,7 @@
     .nav{
          margin-bottom: 28px;
     }
-    .block-nav{
+    .button{
         margin-bottom: 114px;
     }
     .logo{
@@ -22,7 +22,7 @@
         margin-bottom: 16px;
     }
     .block-partner{
-        margin: 0 0 30px;
+        margin: 0 0 24px;
     }
    
       
@@ -46,7 +46,7 @@
     .logo{
         order: 1;
     }
-    .block-nav{
+    .button{
         order: 2;
         width: 200px;
     }
@@ -61,7 +61,8 @@
         margin: 0 auto 34px;
     }
     .promo button{
-    padding: 10px 22px;
+        width: 225px;
+        padding: 10px 2px;
     }
     main{
         padding: 68px 0 40px;
@@ -76,13 +77,14 @@
         flex-wrap: wrap;
         justify-content: center;
         align-content: space-between;
-        margin: 0 0 32px;
+        margin: 0 0 36px;
     }
     .block-partner1, .block-partner2, .block-partner3, .block-partner4{
         width: 256px;
+        margin: 0;
     }
     .partner1, .partner2, .partner3, .partner4{
-        margin: 0 0 14px;
+        margin: 0 0 18px;
     }
     .block-partner1{
         order:1;
@@ -97,10 +99,11 @@
         order:4;
     }
     .partner-name{
-        margin:0 0 16px;
+        margin:0 0 14px;
     }    
     section button{
-        padding: 10px 28px;
+        width: 192px;
+        padding: 10px 2px;
     }
     .partner1::after, .partner2::after, .partner3::after, .partner4::after {
         right:62px;
@@ -112,20 +115,19 @@
         margin: 0 auto;
     }
     header{
-        min-height: 658px;
-        padding-top: 44px;
+        padding: 38px 0 140px;
     }
     .nav{
         height: 40px;
         display: flex;
         justify-content: space-between;
-        margin-bottom: 210px;
+        margin-bottom: 136px;
     }
     .logo{
         order: 1;
         padding: 8px 0;
     }
-    .block-nav{
+    .button{
         width: 200px;
         order: 2;
     }
@@ -140,7 +142,8 @@
         margin: 0 auto 36px;
     }
     .promo button{
-        padding: 10px 22px;
+        width: 227px;
+        padding: 10px 2px;
     }
      main{
         padding: 68px 0 72px;
@@ -157,6 +160,7 @@
     }    
     .block-partner1, .block-partner2, .block-partner3, .block-partner4 {
         width: 220px;
+        margin: 0;
     }
     .block-partner1{
         order:1;
@@ -180,7 +184,8 @@
         margin:0 0 14px;
     }  
     section button{
-        padding: 10px 28px;
+        width: 192px;
+        padding: 10px 2px;
     }
 }
 
