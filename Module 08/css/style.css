@@ -8,7 +8,6 @@ body{
    
 /* HEADER */
 header{
-    min-height: 520px;
     background-image: linear-gradient(rgba(50, 50, 50, 0.2), rgba(50, 50, 50, 0.2)), url(../img/Vector-Smart-Object.png);
     background-size: cover;
     background-position: center;
