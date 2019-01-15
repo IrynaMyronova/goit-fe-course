@@ -9,12 +9,12 @@ body{
 }
 /* HEADER */
 header{
-    padding: 44px 6px 70px;
+    padding: 44px 0 70px;
 }
 header nav{
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
 }
 
 .logo{
@@ -24,7 +24,7 @@ header nav{
     line-height: 41px;
     color: #fed136;
     text-decoration: none;
-    padding-left: 6px;
+
 }
 .block-nav{
     display: flex;
@@ -51,7 +51,7 @@ header nav{
 }
 /* MAIN */
 main{
-    padding: 40px 6px 20px;
+    padding: 40px 0 20px;
 }
 .services{
     margin-bottom: 122px;
@@ -163,16 +163,17 @@ input{
     border: 1px solid #cccccc;
     border-radius: 2px;
     margin-bottom: 28px;
+    outline: none;
     
 }
 input:last-child{
     margin-bottom: 0;
 }
 input:required:valid:not(:placeholder-shown){
-    outline-color : #008000;
+    border-color : #008000;
 }
 input:required:invalid:not(:placeholder-shown){
-    outline-color: #ff0000;
+    border-color: #ff0000;
 }
 input::placeholder, textarea::placeholder {
     text-transform: uppercase;
@@ -195,13 +196,14 @@ textarea{
     border-radius: 2px;
     resize: none;
     padding:18px 2px 2px;
+    outline: none;
     
 }
 textarea:required:valid:not(:placeholder-shown){
-    outline-color : #008000;
+    border-color : #008000;
 }
 textarea:required:invalid:not(:placeholder-shown){
-    outline-color: #ff0000;
+    border-color: #ff0000;
 }
 
 button{
