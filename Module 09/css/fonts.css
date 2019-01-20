@@ -1,0 +1,11 @@
+
+/* Montserrat-Bold */
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../fonts/Montserrat/Montserrat-Bold.woff') format('woff');
+}
+/* Roboto-Light */
+@font-face{
+    font-family: 'Roboto-Light';
+    src: url('../fonts/Roboto/Robotolight.woff') format('woff');
+}
