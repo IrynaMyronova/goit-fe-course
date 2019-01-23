@@ -74,7 +74,6 @@
         margin: 0 0 20px;
     }
     .block-partner1, .block-partner2, .block-partner3, .block-partner4{
-        padding: 0;
         margin: 0;
     }
     .partner1, .partner2, .partner3, .partner4{
@@ -109,17 +108,15 @@
         width: 940px;
     }
     header{
-        padding: 38px 0 238px;
+        padding: 36px 0 232px;
     }
     .nav{
-        height: 40px;
         display: flex;
         justify-content: space-between;
         margin-bottom: 138px;
     }
     .logo{
         order: 1;
-        padding: 8px 0;
     }
     .button{
         width: 200px;
@@ -148,12 +145,10 @@
     }
     .block-partner{
         height: auto;
-        margin: 0 0 24px;
+        margin: 0 0 36px;
     }    
     .block-partner1, .block-partner2, .block-partner3, .block-partner4 {
-        margin: 0;
-        padding: 0;
-
+        margin:0;
     }
     .block-partner1{
         order:1;
@@ -168,7 +163,7 @@
         order:4;
     }
     .partner1, .partner2, .partner3, .partner4{
-        margin: 0 0 16px;
+        margin: 0 0 18x;
     }
     .partner1::after, .partner2::after, .partner3::after, .partner4::after {
         right:22%;
