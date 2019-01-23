@@ -26,6 +26,10 @@ header{
     text-transform: uppercase;
     text-align: center;
 }
+.logo:hover{
+    text-decoration: none;
+    color:#ffffff;
+}
 .button{
     width: 100%;
     display: flex;
@@ -114,7 +118,7 @@ h4{
     background-repeat: no-repeat;
     background-position: center;
     margin: 0 0 16px;
-}
+}   
 .partner1{
     background-image: url('../img/foto1.png');
 }
@@ -137,7 +141,6 @@ h4{
 }
 .info-partner{
     font-family: 'Roboto-Light', sans-serif;
-    width: 216px;
     font-size: 14px;
     font-weight: 300;
     line-height: normal;
@@ -182,7 +185,7 @@ h4{
 }
 .block-partner1, .block-partner2, .block-partner3, .block-partner4{
     margin-bottom: 20px;
-    padding: 0;
+    padding: 0 10px;
 }
 .block-partner4{
     margin: 0;
