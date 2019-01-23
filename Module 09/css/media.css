@@ -111,6 +111,9 @@
         padding: 36px 0 232px;
     }
     .nav{
+        height: 40px;
+        display: flex;
+        align-items: center;
         display: flex;
         justify-content: space-between;
         margin-bottom: 138px;
