@@ -2,7 +2,7 @@
 /* HEADER */
 .header{
     padding: 24px 6px 228px;
-    background-image: linear-gradient( to top, rgb(252,227,138,0.9), rgb(243,129,129,0.9)), url(../img/baner/baner.png);
+    background: linear-gradient( to top, rgb(252,227,138,0.9), rgb(243,129,129,0.9)), url(../img/baner/image.png);
     background-position: center;
     background-size: cover;
     background-repeat:no-repeat;
@@ -23,7 +23,7 @@
     color:#fff;
     font-size: 30px;
 }
-.site-navigation{
+.menu-nav{
     width: 620px;
     display: flex;
     justify-content: space-between;
@@ -35,13 +35,13 @@
     padding: 0;
     margin: 0;
 }
-.site-navigation__item{
+.menu-nav__item{
     width: 65px;
     cursor: pointer;
     position: relative;
     text-align: center;
 }
-.site-navigation__item:hover .site-navigation__link-icon::after {
+.menu-nav__item:hover .menu-nav__link-icon::after {
     content: '';
     display: block;
     width: 100%;
@@ -52,7 +52,7 @@
 
 }
 
-.site-navigation__link{
+.menu-nav__link{
     display: inline-block;
     height: 100%;
     text-decoration: none;
@@ -60,17 +60,17 @@
     position: relative;
 
 }
-.site-navigation__item:hover .site-navigation__link{
+.menu-nav__item:hover .menu-nav__link{
     color:#fce38a;
 }
-.site-navigation__icon{
+.menu-nav__icon{
     width: 18px;
     height: 20px;
     fill:#fff;
     text-align: center;
  
 }
-.block-baner__title{
+.block-welcome__subtitle{
     font-family: 'Kaushanscript-Regular', sans-serif;
     font-size: 72px;
     color: #fff;
@@ -80,7 +80,7 @@
     padding: 0;
     margin: 0 0 50px;
 }
-.block-baner__subtitle{
+.block-welcome__title{
     font-family: 'Montserrat-Bold', sans-serif;
     color:#fff;
     font-size: 150px;
@@ -90,7 +90,7 @@
     padding: 0 180px;
     margin: 0 0 136px;
 }
-.block-baner__button{
+.block-welcome__button{
     display: block;
     width: 160px;
     font-family: 'Montserrat-Bold', sans-serif;
@@ -101,6 +101,7 @@
     margin: 0 auto;
     border:3px #fff solid;
     background: inherit;
+    cursor: pointer;
     
 }
 
@@ -112,7 +113,7 @@
     padding: 48px 6px 80px;
     
 }
-.title{
+.subtitle{
     font-family: 'Kaushanscript-Regular', cursive;
     font-size: 24px;
     font-weight: 400;
@@ -121,7 +122,7 @@
     letter-spacing: 0;
     margin: 0 0 12px;
 }
-.subtitle{
+.title{
     font-family: 'Montserrat-Bold', sans-serif;
     font-size: 30px;
     color:#333333;
@@ -131,7 +132,7 @@
     position: relative;
 
 }
-.subtitle-icon::after{
+.title-icon::after{
     content:'';
     display: block;
     position: absolute;
@@ -150,11 +151,11 @@
     line-height: 24px;
     margin: 0;
 }
-.section-services{
+.services{
     margin-bottom: 88px;
 }
 
-.section-services__subtitle{
+.services__title{
     margin: 0 0 102px; 
 
 }
@@ -168,14 +169,14 @@
     align-content: space-between;
 
 }
-.block-services{
+.services__item{
     width: 290px;
     margin: 0;
     padding-left: 70px;
     position: relative;
 
 }
-.block-services__icon::before{
+.services__icon::before{
     content: '';
     display: block;
     height: 80px;
@@ -187,25 +188,25 @@
     left: -6px;
   
 }
-.block-services__icon-icon1::before{
+.services__icon-icon1::before{
     background-image: url(../img/icons/services-icons/1.png);
 }
-.block-services__icon-icon2::before{
+.services__icon-icon2::before{
     background-image: url(../img/icons/services-icons/2.png);
 }
-.block-services__icon-icon3::before{
+.services__icon-icon3::before{
     background-image: url(../img/icons/services-icons/3.png);
 }
-.block-services__icon-icon4::before{
+.services__icon-icon4::before{
     background-image: url(../img/icons/services-icons/4.png);
 }
-.block-services__icon-icon5::before{
+.services__icon-icon5::before{
     background-image: url(../img/icons/services-icons/5.png);
 }
-.block-services__icon-icon6::before{
+.services__icon-icon6::before{
     background-image: url(../img/icons/services-icons/6.png);
 }
-.block-services__title{
+.services__short-title{
     font-family: 'Montserrat-Regular', sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -215,44 +216,44 @@
     margin: 0 0 12px;
 }
 
-.section-our-team__subtitle{
+.our-team__title{
     margin: 0 0 82px;
 }
 
-.section-our-team__txt{
+.our-team__txt{
     text-align: center;
     padding: 0 130px;
     margin: 0 0 88px;
 
 }
-.subsection-our-team{
+.our-team__galery{
     display: flex;
     justify-content: space-between;
     margin: 0;
     padding: 0;
 }
-.block-our-team{
+.our-team__item{
     width: 380px;
     position: relative;
 }
-.block-our-team__person{
+.our-team__person{
     margin:0 0 28px;
     background: #95e1d3
 
 }
-.block-our-team__img {
+.our-team__img {
     display: block;
     width: 380px;
     height: 470px;
  }
-.block-our-team:hover .block-our-team__img{
+.our-team__item:hover .our-team__img{
     transform: translate(-10px,-10px);
     transition-property: transform;
     transition-duration: 200ms;
     transition-timing-function: linear;
    
 }
-.block-our-team__name{
+.our-team__name{
     font-family: 'Montserrat-Regular', sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -261,7 +262,7 @@
     text-transform: uppercase;
     margin: 0 0 6px;
 }
-.block-our-team__occupation{
+.our-team__occupation{
     font-family: 'Roboto-Light', sans-serif;
     font-size: 15px;
     font-weight: 300;
@@ -286,7 +287,7 @@
     
   
 }
-.block-our-team:hover .block-overlay{
+.our-team__item:hover .block-overlay{
     opacity: 1;
     transform: translate(-10px,-10px);
     transition-property:transform ;
@@ -310,7 +311,7 @@
     margin: 0;
     padding: 0;
 }
-.block-our-team:hover .block-socials{
+.our-team__item:hover .block-socials{
    opacity: 1;
   
 
@@ -425,9 +426,10 @@ border-top: 1px solid #e5e5e5;
 
 }
 /* MEDIA */
-@media(min-resolution: 192dpi), (min-resolution: 2dppx){
+@media(-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi), (min-resolution: 2dppx){
     header{
-        background-image: linear-gradient( to top, rgb(252,227,138,0.9), rgb(243,129,129,0.9)), url(../img/baner/baner@2x.png);
+    background: linear-gradient( to top, rgb(252,227,138,0.9), rgb(243,129,129,0.9)), url(../img/baner/image@2x-min.png);
       
     }
 }
+
