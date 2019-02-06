@@ -1,0 +1,39 @@
+
+.form{
+    display:block;
+    width: 380px;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    cursor: pointer;
+}
+.form__email{
+    display: inline-block;
+    width: 188px;
+    font-family: $secondary-font-txt, sans-serif;
+    border:1px solid $primary-border-color;
+    font-size: 15px;
+    font-weight: 300;
+    color:#cccccc;
+    font-style: italic;
+    outline: none;
+    margin: 0;
+    text-transform: capitalize;
+    padding: 10px 20px;
+}
+.form__button{
+    display: inline-block;
+    width: 150px;
+    border: 1px solid $bg-color;
+    background: $bg-color;
+    font-family: $primary-font-title, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color:$primary-light-color;
+    text-transform: uppercase;
+    padding:10px 4px;
+    cursor: pointer;
+    outline: none;
+
+
+}

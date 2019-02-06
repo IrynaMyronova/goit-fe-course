@@ -1,0 +1,24 @@
+/*
+   Import partials below
+*/
+@import './normalize';
+@import './variables';
+@import './fonts';
+@import './common';
+@import './header/header';
+@import './header/block-nav';
+@import './header/site-logo';
+@import './header/menu-nav';
+@import './header/block-welcome';
+@import './main/main';
+@import './main/subtitle';
+@import './main/title';
+@import './main/txt';
+@import './main/services.scss';
+@import './main/our-team.scss';
+@import './main/block-overlay';
+@import './main/block-socials';
+@import './footer/footer';
+@import './footer/block-info';
+@import './footer/form';
+@import './media';

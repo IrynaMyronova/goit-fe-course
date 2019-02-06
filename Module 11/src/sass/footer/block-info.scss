@@ -1,0 +1,19 @@
+
+.block-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.block-info__txt{
+    font-family: $secondary-font-title, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color:$primary-black-color;
+    letter-spacing: 0;
+    margin: 0;
+
+        &-autor{
+            color:$third-accent-color;
+        }
+
+}

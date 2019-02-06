@@ -1,0 +1,20 @@
+.title{
+    font-family: $primary-font-title, sans-serif;
+    font-size: 30px;
+    color:$primary-black-color;
+    text-align: center;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    position: relative;
+
+}
+.title-icon::after{
+    content:'';
+    display: block;
+    position: absolute;
+    width: 60px;
+    border-bottom: 3px solid $secondary-accent-color;
+    bottom:-40px;
+    left: 573px;
+
+}
