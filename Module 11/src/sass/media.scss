@@ -1,0 +1,133 @@
+/* MEDIA */
+@media(-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi), (min-resolution: 2dppx){
+    header{
+    background: linear-gradient( to top, #fce38ae6, #f38181e6,), url(../images/bg-img/image@2x-min.png);
+      
+    }
+}
+@media (min-width:320px) and (max-width:767px){
+    .header{
+        background-position: center;
+        padding-bottom: 100px;
+    }
+    
+    .container{
+        width: 100%;
+    }
+    
+    .block-nav{
+        flex-flow: column;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .site-logo{
+        margin-bottom: 30px;
+        font-size: 45px;
+    }
+    
+    .menu-nav{
+        width: 100%;
+        flex-flow: column;
+        align-items: center;
+        font-size: 21px;
+    }
+    .menu-nav__item{
+        margin-bottom: 20px;
+    }
+    .menu-nav__item:last-of-type{
+        margin-bottom: 0;
+    }
+    .block-welcome__title{
+        font-size: 50px;
+        padding: 0;
+        margin-bottom:70px;
+        line-height: 50px;
+    
+    }
+    .block-welcome__subtitle{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .main{
+        overflow: hidden;
+    }
+    .title-icon::after{
+        display: none;
+    }
+    .services{
+        margin-bottom: 50px;
+    }
+    .services__title{
+        margin-bottom: 70px;
+    }
+    .services__item{
+        margin-bottom: 20px;
+            &:last-of-type{
+                margin-bottom: 0;
+            }
+
+    }
+
+    .our-team__txt{
+        padding: 0;
+    }
+    .our-team__galery{
+        justify-content: center;
+    }
+    .our-team__item{
+        margin-bottom: 20px;
+    }
+    .our-team__item:last-of-type{
+        margin-bottom: 0;
+    }
+    .block-info{
+    flex-direction: column-reverse;
+    justify-content: center;
+    }
+    .form{
+        margin-bottom:20px;
+        width: 100%;
+    }
+    .form__email{
+        width: 45%;
+    }
+    .form__button{
+        width: 41%;
+    }
+    }
+    
+    
+    @media (min-width:768px) and (max-width:959px){
+        .header{
+            background-position: center;
+            padding-bottom: 100px;
+        }
+        
+        .container{
+            width: 100%;
+        }
+        .title-icon::after{
+            left: 380px;
+        }    
+    
+        .block-welcome__title{
+            font-size: 100px;
+            padding: 0;
+        
+        }
+        .our-team__galery{
+            justify-content: space-around;
+        }
+    }
+    @media (min-width:960px) and (max-width:1119px){
+        .container{
+            width: 100%;
+        }
+        .title-icon::after{
+            left: 520px;
+        }   
+        .our-team__galery{
+            justify-content: space-around;
+        }
+    }
+    
