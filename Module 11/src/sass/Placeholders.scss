@@ -1,0 +1,10 @@
+%flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+%primary-fc{
+    font-family: $primary-font-title, sans-serif;
+    color:$primary-light-color;
+
+}

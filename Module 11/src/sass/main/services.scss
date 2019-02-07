@@ -1,12 +1,31 @@
 
 .services{
     margin-bottom: 88px;
+
+    &__title{
+        margin: 0 0 102px; 
+    }
+        &__item{
+            width: 290px;
+            margin: 0;
+            padding-left: 70px;
+            position: relative;
+        }    
+            &__short-title{
+                font-family: $secondary-font-title, sans-serif;
+                font-size: 14px;
+                font-weight: 400;
+                color: $primary-black-color;
+                letter-spacing: 0;
+                text-transform: uppercase;
+                margin: 0 0 12px;
+            }
+        
+        
+    
 }
 
-.services__title{
-    margin: 0 0 102px; 
 
-}
 
 .subsection-services{
     display:flex;
@@ -17,14 +36,10 @@
     align-content: space-between;
 
 }
-.services__item{
-    width: 290px;
-    margin: 0;
-    padding-left: 70px;
-    position: relative;
 
-}
-.services__icon::before{
+.services__icon{
+
+        &::before{
     content: '';
     display: block;
     height: 80px;
@@ -34,32 +49,32 @@
     position: absolute;
     top: 2px;
     left: -6px;
+    }
+
+        &-icon1::before{
+            background-image: url(../images/services-icons/1.png);
+        }
+
+            &-icon2::before{
+                background-image: url(../images/services-icons/2.png);
+            }
+                
+                &-icon3::before{
+                    background-image: url(../images/services-icons/3.png);
+                }
+                    &-icon4::before{
+                        background-image: url(../images/services-icons/4.png);
+                    }
+                        &-icon5::before{
+                            background-image: url(../images/services-icons/5.png);
+                        }
+                            
+                                &-icon6::before{
+                                 background-image: url(../images/services-icons/6.png);
+                                }
+         
+        
+        
   
 }
-.services__icon-icon1::before{
-    background-image: url(../images/services-icons/1.png);
-}
-.services__icon-icon2::before{
-    background-image: url(../images/services-icons/2.png);
-}
-.services__icon-icon3::before{
-    background-image: url(../images/services-icons/3.png);
-}
-.services__icon-icon4::before{
-    background-image: url(../images/services-icons/4.png);
-}
-.services__icon-icon5::before{
-    background-image: url(../images/services-icons/5.png);
-}
-.services__icon-icon6::before{
-    background-image: url(../images/services-icons/6.png);
-}
-.services__short-title{
-    font-family: $secondary-font-title, sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    color: $primary-black-color;
-    letter-spacing: 0;
-    text-transform: uppercase;
-    margin: 0 0 12px;
-}
+

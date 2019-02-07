@@ -445,6 +445,21 @@ template {
   src: url("../fonts/Kaushanscript/Kaushanscript.woff") format("woff");
 }
 
+.block-nav,
+.menu-nav,
+.our-team__galery,
+.block-socials__list,
+.block-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.block-welcome__title,
+.block-welcome__button {
+  font-family: "Montserrat-Bold", sans-serif;
+  color: #ffffff;
+}
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -459,8 +474,6 @@ template {
 }
 
 .block-nav {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
   margin-bottom: 164px;
 }
@@ -474,8 +487,6 @@ template {
 
 .menu-nav {
   width: 620px;
-  display: flex;
-  justify-content: space-between;
   font-family: "Montserrat-Regular", sans-serif;
   font-size: 14px;
   letter-spacing: 0;
@@ -533,8 +544,6 @@ template {
 }
 
 .block-welcome__title {
-  font-family: "Montserrat-Bold", sans-serif;
-  color: #ffffff;
   font-size: 150px;
   line-height: 120px;
   text-align: center;
@@ -544,14 +553,12 @@ template {
 }
 
 .block-welcome__button {
-  display: block;
   width: 160px;
-  font-family: "Montserrat-Bold", sans-serif;
-  color: #ffffff;
+  display: block;
   font-size: 14px;
   text-align: center;
-  padding: 10px 28px;
   margin: 0 auto;
+  padding: 10px 28px;
   border: 3px #fff solid;
   background: inherit;
   cursor: pointer;
@@ -609,6 +616,23 @@ template {
   margin: 0 0 102px;
 }
 
+.services__item {
+  width: 290px;
+  margin: 0;
+  padding-left: 70px;
+  position: relative;
+}
+
+.services__short-title {
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333333;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  margin: 0 0 12px;
+}
+
 .subsection-services {
   display: flex;
   min-height: 246px;
@@ -616,13 +640,6 @@ template {
   justify-content: space-around;
   margin: 0;
   align-content: space-between;
-}
-
-.services__item {
-  width: 290px;
-  margin: 0;
-  padding-left: 70px;
-  position: relative;
 }
 
 .services__icon::before {
@@ -661,16 +678,6 @@ template {
   background-image: url(../images/services-icons/6.png);
 }
 
-.services__short-title {
-  font-family: "Montserrat-Regular", sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  color: #333333;
-  letter-spacing: 0;
-  text-transform: uppercase;
-  margin: 0 0 12px;
-}
-
 .our-team__title {
   margin: 0 0 82px;
 }
@@ -682,8 +689,6 @@ template {
 }
 
 .our-team__galery {
-  display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
@@ -772,9 +777,7 @@ template {
 }
 
 .block-socials__list {
-  display: flex;
   width: 224px;
-  justify-content: space-between;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -840,8 +843,6 @@ template {
 }
 
 .block-info {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
