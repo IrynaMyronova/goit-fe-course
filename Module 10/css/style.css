@@ -2,7 +2,7 @@
 /* HEADER */
 .header{
     padding: 24px 6px 228px;
-    background: linear-gradient( to top, rgb(252,227,138,0.9), rgb(243,129,129,0.9)), url(../img/baner/image.png);
+    background: linear-gradient( to top, rgb(252,227,138,0.9), rgb(243,129,129,0.9)), url(../img/baner/baner.png);
     background-position: center;
     background-size: cover;
     background-repeat:no-repeat;
@@ -229,6 +229,7 @@
 .our-team__galery{
     display: flex;
     justify-content: space-between;
+    flex-wrap:wrap;
     margin: 0;
     padding: 0;
 }
@@ -425,11 +426,10 @@ border-top: 1px solid #e5e5e5;
 
 
 }
-/* MEDIA */
-@media(-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi), (min-resolution: 2dppx){
-    header{
-    background: linear-gradient( to top, rgb(252,227,138,0.9), rgb(243,129,129,0.9)), url(../img/baner/image@2x-min.png);
-      
-    }
-}
 
+@media (min-resolution: 192dpi), (min-resolution: 2dppx){
+    .header{
+        background: linear-gradient( to top, rgb(252,227,138,0.9), rgb(243,129,129,0.9)), url(../img/baner/baner@2x.png);
+    }
+}    
+     
