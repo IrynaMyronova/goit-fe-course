@@ -467,7 +467,7 @@ template {
 
 .header {
   padding: 24px 6px 228px;
-  background: linear-gradient(to top, #fce38ae6, #f38181e6), url(../../images/bg-img/image.png);
+  background: linear-gradient(to top, rgba(252, 227, 138, 0.902), rgba(243, 129, 129, 0.902)), url(../../images/bg-img/image.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1046,7 +1046,10 @@ template {
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  header {
-    background: linear-gradient(to top, #fce38ae6, #f38181e6), url(../images/bg-img/image@2x-min.png);
+  .header {
+    background: linear-gradient(to top, rgba(252, 227, 138, 0.902), rgba(243, 129, 129, 0.902)), url(../images/bg-img/image@2x-min.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 }
