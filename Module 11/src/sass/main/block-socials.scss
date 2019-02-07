@@ -4,61 +4,62 @@
     right: 88px;
     opacity: 0;
    
-}
-.block-socials__list{
-    display: flex;
+        &__list{
+    @extend %flex;
     width: 224px;
-    justify-content: space-between;
     list-style: none;
     margin: 0;
     padding: 0;
-}
+        }
 
-.block-socials__link{
-    display: block;
-    width: 55px;
-    height: 56px;
-    background-color: $primary-accent-color;
-    text-decoration: none;
-    cursor: pointer;
-    position: relative;
+            &__link{
+            display: block;
+            width: 55px;
+            height: 56px;
+            background-color: $primary-accent-color;
+            text-decoration: none;
+            cursor: pointer;
+            position: relative;
 
-        &:hover{
-            background-color: $secondary-accent-color;
-            transition-property: all;
-            transition-duration: 200ms;
-            transition-timing-function: linear;
+                &:hover{
+                    background-color: $secondary-accent-color;
+                    transition-property: all;
+                    transition-duration: 200ms;
+                    transition-timing-function: linear;
         
-         } 
-         &:hover .block-socials__icon {
-            fill: $primary-light-color;
-            transition-property: all;
-            transition-duration: 200ms;
-            transition-timing-function: linear;
+                } 
+                &:hover .block-socials__icon {
+                    fill: $primary-light-color;
+                    transition-property: all;
+                    transition-duration: 200ms;
+                    transition-timing-function: linear;
         
-         } 
-} 
-.block-socials__icon{
-    display: inline-block;
-    fill:$secondary-accent-color;
-    position: absolute;
-    top:50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-        &-facebook{
-            width: 13px;
-            height: 26px;
-        }
-        &-instagram{
-            width: 26px;
-            height: 26px;
-        }
-        &-pinterest{
-            width: 21px;
-            height: 26px;
-        }
-        &-twitter{
-            width: 26px;
-            height: 26px;
-        }
+                } 
+            }
+                   &__icon{
+                        display: inline-block;
+                        fill:$secondary-accent-color;
+                        position: absolute;
+                        top:50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                            &-facebook{
+                                width: 13px;
+                                height: 26px;
+                            }
+                            &-instagram{
+                                width: 26px;
+                                height: 26px;
+                            }
+                            &-pinterest{
+                                width: 21px;
+                                height: 26px;
+                            }
+                            &-twitter{
+                                width: 26px;
+                                height: 26px;
+                            }
+                    }       
+                
+         
 }
